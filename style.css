@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.container {
+  /* background-image: url("./images/image-product-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10%;
+  padding: 5px;
+  height: 400px;
+  width: 200px;
+}
+.img {
+  border: 2px solid red;
+}
+.text {
+  border: 2px solid rebeccapurple;
+}
